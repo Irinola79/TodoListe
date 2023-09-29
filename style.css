@@ -1,0 +1,53 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(116, 113, 132);
+    margin: 0;
+}
+.todo-container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 700px;
+}
+input, button{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+button{
+    background-color: rgb(227, 89, 89);
+    border-color: rgb(223, 41, 41);
+    cursor: pointer;
+    transition: 1s;
+}
+button:hover{
+    box-shadow: 2px 3px 20px rgb(230, 234, 15);
+}
+
+ul{
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+}
+h1{
+    text-shadow: 0 0 5px red;
+    color: rgb(21, 47, 71);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    
+}
+
+ul li div button:first-of-type{
+    background-color: green;
+}
+ul li div button:last-of-type{
+    background-color: red;
+}
